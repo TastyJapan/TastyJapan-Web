@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'SUITE';
   }
   
-  
   li {
     list-style: none;
   }
