@@ -22,12 +22,12 @@ const Welcome = () => {
         </div>
         <div className="flex flex-col justify-center items-center basis-1/4 mb-40">
           <GoogleOAuth />
-          <div className="pt-20 text-sm">
+          {/* <div className="pt-20 text-sm">
             계정이 없으신가요?{" "}
             <span className="text-blue-600 font-bold hover:underline cursor-pointer">
               가입하기
             </span>
-          </div>
+          </div> */}
         </div>
         <div className="flex flex-col justify-center items-center basis-1/4">
           <div className="pt-3 text-base md:text-gray-400">

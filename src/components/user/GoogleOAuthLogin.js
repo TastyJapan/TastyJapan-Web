@@ -5,7 +5,7 @@ const GoogleOAuthLogin = () => {
     <>
       <GoogleLogin
         onSuccess={(credentialResponse) => {
-          console.log(credentialResponse);
+          console.log(credentialResponse.credential);
         }}
         onError={() => {
           console.log("Login Failed");

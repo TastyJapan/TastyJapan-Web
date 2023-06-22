@@ -1,10 +1,15 @@
-import Welcome from "./pages/Welcome";
+import { Routes, Route } from "react-router-dom";
+
+// pages
+import Main from "./pages/Main";
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <div>
-      <Welcome />
-    </div>
+    <Routes>
+      <Route index element={<Main />} />
+      <Route path="/login" element={<Login />} />
+    </Routes>
   );
 }
 
