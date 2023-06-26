@@ -4,10 +4,10 @@ import Sidebar from "../components/sideContainer/Sidebar";
 
 const Main = () => {
   return (
-    <>
+    <div className="flex">
       <Sidebar />
-      {/* <Container /> */}
-    </>
+      <Container />
+    </div>
   );
 };
 

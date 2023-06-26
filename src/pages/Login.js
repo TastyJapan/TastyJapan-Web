@@ -5,8 +5,8 @@ import GoogleOAuth from "../components/user/GoogleOAuth";
 import styled from "styled-components";
 
 // images
-import logo from "../assets/images/logo.jpg";
-import background from "../assets/images/background.jpg";
+import logo from "../assets/images/user/logo.jpg";
+import background from "../assets/images/user/background.jpg";
 
 const Welcome = () => {
   return (

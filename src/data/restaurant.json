@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "response": {
+    "id": 1,
+    "name": "Tasty Japan",
+    "longitude": 139.6917,
+    "latitude": 35.6895,
+    "city": "TOKYO",
+    "rating": 4.5,
+    "reviewCount": 1,
+    "blogReviewCount": 0,
+    "restaurantImages": []
+  }
+}

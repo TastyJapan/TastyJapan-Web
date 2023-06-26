@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 // images
-import home from "../../assets/images/home.jpg";
+import home from "../../assets/images/main/home.jpg";
 
 // icons
 import StarIcon from "@mui/icons-material/Star";
